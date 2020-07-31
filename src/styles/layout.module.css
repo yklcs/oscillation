@@ -1,0 +1,29 @@
+.card {
+  background: white;
+  color: black;
+  border-radius: 1rem;
+  margin: 1em;
+  padding: 1rem;
+  max-height: calc(100% - 4em);
+}
+
+.layout {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.oscillator {
+  flex-basis: 30rem;
+  flex-grow: 2;
+}
+
+.oscillator > canvas {
+  height: 100%;
+  width: 100%;
+}
+
+.controls {
+  flex-basis: 20rem;
+  flex-grow: 1;
+}
